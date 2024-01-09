@@ -3,11 +3,11 @@
 // Configurar el nivel de error para no mostrar advertencias
 error_reporting(E_ERROR | E_PARSE | E_CORE_ERROR | E_COMPILE_ERROR | E_RECOVERABLE_ERROR);
 
-$servidor = 'ep-jolly-hill-24721875.ap-southeast-1.aws.neon.fl0.io';
+$servidor = 'localhost';
 $puerto = '5432';
 $baseDeDatos = 'recordip';
-$usuario = 'fl0user';
-$contrasenna = 'h5x0yiVmuEcM';
+$usuario = 'php_admin';
+$contrasenna = '123456';
 
 
 try {
