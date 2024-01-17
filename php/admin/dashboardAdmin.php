@@ -66,17 +66,29 @@ include("./control.php"); ?>
                             data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
                             aria-selected="true">Inicio</button>
 
+<<<<<<< HEAD
                         <a href="./perfil.php#?txtID=<?php echo $_SESSION['id']; ?>" class="nav-link"> <button
+=======
+                        <a href="perfil.php#?txtID=<?php echo $_SESSION['id']; ?>" class="nav-link"> <button
+>>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
                                 class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-profile" type="button" role="tab"
                                 aria-controls="v-pills-profile" aria-selected="false">Perfil</button></a>
 
+<<<<<<< HEAD
                         <a href="./ajustes.php#?txtID=<?php echo $_SESSION['id']; ?>" class="nav-link"> <button
+=======
+                        <a href="ajustes.php#?txtID=<?php echo $_SESSION['id']; ?>" class="nav-link"> <button
+>>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
                                 class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-settings" type="button" role="tab"
                                 aria-controls="v-pills-settings" aria-selected="false">Ajustes</button></a>
 
+<<<<<<< HEAD
                         <a href="./cerrar.php" class="nav-link"> <button
+=======
+                        <a href="<?php echo $url_base; ?>php/admin/cerrar.php" class="nav-link"> <button
+>>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
                                 class="nav-link bg-danger text-white opacity-50 btn_exit" type="button" role="button"
                                 id="close">Cerrar sesion</button></a>
                     </div>
@@ -104,7 +116,11 @@ include("./control.php"); ?>
                             </div>
                             <div class="modal-footer">
                                 <a class="btn btn-secondary btnc_reminder" data-bs-dismiss="modal"
+<<<<<<< HEAD
                             aria-label="Close" href="./dashboardAdmin.php"
+=======
+                            aria-label="Close" href="http://localhost/app_remembers/php/admin/dashboardAdmin.php"
+>>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
                                     id="closing">Cerrar</a>
                                 <a  class="btn btn-primary btn_r btn_actualizar" onclick="btnEditar();"
                                 >Actualizar</a>
@@ -116,7 +132,11 @@ include("./control.php"); ?>
             </div>
         </div>
 
+<<<<<<< HEAD
         <div class="tab-content contenedor-inicio h-75 overflow-auto" id="v-pills-tabContent">
+=======
+        <div class="tab-content contenedor-inicio h-75" id="v-pills-tabContent">
+>>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
             <div class="card z-0">
                 <div class="card-body" style="color: black;">
                     <div class="table-responsive-sm ">
@@ -154,7 +174,11 @@ include("./control.php"); ?>
                                         </td>
                                         <td>
                                             <a class="btn btn-info edit modal_on" id="modal"
+<<<<<<< HEAD
                                                 href="./dashboardAdmin.php?id=<?php echo $registro['id_usuario']; ?>"
+=======
+                                                href="http://localhost/app_remembers/php/admin/dashboardAdmin.php?id=<?php echo $registro['id_usuario']; ?>"
+>>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
                                                 type="button" role="button">Editar</a>
 
                                             <!-- MODAL -->

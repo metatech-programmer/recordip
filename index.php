@@ -17,7 +17,11 @@
 
     <nav class="navbar bg-body-tertiary">
         <div class="container-fluid">
+<<<<<<< HEAD
             <a class="navbar-brand d-flex align-items-center" href="./index.php">
+=======
+            <a class="navbar-brand d-flex align-items-center" href="index.php">
+>>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
                 <img src="./img/icono.png" alt="Logo" height="40" class="d-inline-block align-text-top mx-3">
                 Recordip
             </a>

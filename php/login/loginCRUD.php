@@ -18,7 +18,11 @@ if ($_POST) {
     GROUP BY id_usuario,correo_acceso, password_acceso;");
     $correo = (isset($_POST["correo_acceso"]) ? $_POST["correo_acceso"] : "");
     $password = hash('sha512', (isset($_POST["password_acceso"]) ? $_POST["password_acceso"] : ""));
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
 
     $sentencia->bindParam(":correo_acceso", $correo);
     $sentencia->bindParam(":password_acceso", $password);
@@ -27,6 +31,7 @@ if ($_POST) {
 
     $originalUrl = "app_remembers/php/php_dashboard/dashboard.php?txtID=" . $registro["id"] . "&role=" . $registro["rol"];
 
+<<<<<<< HEAD
     if ($registro["n_acceso"] > 0) {
         if ($registro["rol"] === "user") {
             $_SESSION['id'] = $registro["id"];
@@ -57,6 +62,33 @@ if ($_POST) {
             $mensaje = "Error: El usuario o contraseña son incorrectos";
 
         }
+=======
+    if ($registro["n_acceso"] > 0 && $registro["rol"] === "user") {
+
+        $_SESSION['id'] = $registro["id"];
+        $_SESSION['correo_acceso'] = $registro["correo_acceso"];
+        $_SESSION['nickname'] = $registro["nickname"];
+        $_SESSION['nombres'] = $registro["nombres"];
+        $_SESSION['apellidos'] = $registro["apellidos"];
+        $_SESSION['rol'] = $registro["rol"];
+        $_SESSION['logueado'] = true;
+
+        $_SESSION['previousURL'] = $originalUrl;
+
+        header("Location:../php_dashboard/dashboard.php#?txtID=" . $_SESSION["id"] . "&role=" . $_SESSION["rol"]);
+    } else if ($registro["n_acceso"] > 0 && $registro["rol"] === "admin") {
+
+        $_SESSION['id'] = $registro["id"];
+        $_SESSION['correo_acceso'] = $registro["correo_acceso"];
+        $_SESSION['nickname'] = $registro["nickname"];
+        $_SESSION['nombres'] = $registro["nombres"];
+        $_SESSION['apellidos'] = $registro["apellidos"];
+        $_SESSION['rol'] = $registro["rol"];
+        $_SESSION['logueado'] = true;
+        $_SESSION['previousURL'] = $originalUrl;
+
+        header("Location:../admin/dashboardAdmin.php?#txtID=" . $_SESSION["id"] . "&role=" . $_SESSION["rol"]);
+>>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
     } else {
         $mensaje = "Error: El usuario o contraseña son incorrectos";
 

@@ -2,6 +2,7 @@
 $txtID = isset($_GET["txtID"]) ? intval($_GET["txtID"]) : 0;
 include("../../db.php");
 
+<<<<<<< HEAD
 
 if ($_POST) {
 
@@ -55,6 +56,50 @@ if ($_POST) {
 }
 ?>
 <?php include("../../templates/peticion.php"); ?>
+=======
+if ($_POST) {
+
+
+
+    // Recolectamos los datos del metodo POST
+    $correo = (isset($_POST["correo"]) ? $_POST["correo"] : "");
+    $password = hash('sha512', (isset($_POST["password"]) ? $_POST["password"] : ""));
+    
+    $foto = "default.png";
+    // Preparamnos la insercion de los datos
+    $sentencia = $conexion->prepare("INSERT INTO accesos (id_usuario,correo_acceso,password_acceso) VALUES (:id,:correo,:password);");
+    $sentencia_2 = $conexion->prepare("INSERT INTO imagenes (id_usuario,nombre_imagen) VALUES (:id,:nombre_foto);");
+    //Asignando los valores que vienen del metodo POST (Los que vienen del formulario)
+
+    $sentencia->bindParam(":id", $txtID);
+    $sentencia->bindParam(":correo", $correo);
+    $sentencia->bindParam(":password", $password);
+    $sentencia->execute();
+
+    $sentencia_2->bindParam(":id", $txtID);
+
+    $fechita = new DateTime();
+
+    $nombreArchivo_foto = ($foto != '') ? $fechita->getTimestamp() . "_" . $foto : "";
+    $tmp_foto = "C:/xampp/htdocs/app_remembers/img/default.png";
+
+    if ($tmp_foto != "") {
+        copy($tmp_foto, "C:/xampp/htdocs/app_remembers/php/php_dashboard/img/".$nombreArchivo_foto);
+        copy($tmp_foto, "C:/xampp/htdocs/app_remembers/php/admin/img/".$nombreArchivo_foto);
+    }
+
+    $sentencia_2->bindParam(":nombre_foto", $nombreArchivo_foto);
+    $sentencia_2->execute();
+
+
+    $mensaje = "Registro agregado";
+
+
+    header("Location:./inicio_sesion.php?mensaje=" . urlencode($mensaje) . "&txtID=" . $txtID);
+}
+?>
+<?php include("../../templates/peticion.php");?>
+>>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
 <!DOCTYPE html>
 <html lang="es">
 
@@ -83,6 +128,7 @@ if ($_POST) {
             <form action="" method="post">
                 <p style="width: 90%; margin: 20px auto;">Regístrese con su correo electrónico y una contraseña .
                 </p>
+<<<<<<< HEAD
                 <?php if (isset($mensaje)) { ?>
                     <div class="alert alert-danger center" role="alert">
                         <strong>
@@ -91,6 +137,8 @@ if ($_POST) {
                     </div>
                     <?php
                 } ?>
+=======
+>>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
                 <div class="col-12 my-2">
                     <label class="visually-hidden" for="inlineFormInputGroupUsername">Correo electronico</label>
                     <div class="input-group">
@@ -110,9 +158,15 @@ if ($_POST) {
                         <input type="password" name="password" class="form-control" id="inlineFormInputGroupUsername"
                             placeholder="Digite su contraseña" required>
 
+<<<<<<< HEAD
                     </div>
                 </div>
 
+=======
+                         </div>
+                </div>
+                
+>>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
                 <button class="btn btn-primary" type="submit"
                     style="margin-top: 40px;"><strong>Registrarse</strong></button>
 

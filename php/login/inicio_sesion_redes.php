@@ -32,11 +32,19 @@
                         <img src="../../img/gmail.png" alt="Icono de correo" class="icono-redes"> Google
                     </button></a>
 
+<<<<<<< HEAD
                 <a href="./inicio_sesion.php" rel="noopener noreferrer">
                     <button type="button" class=" redes btn btn-secondary justify-content-center">Correo
                         electrónico</button></a>
 
                 <p>¿Aún no tienes una cuenta? <u></u><a href="./registrar.php">Registrate</a> </u></p>
+=======
+                <a href="inicio_sesion.php" rel="noopener noreferrer">
+                    <button type="button" class=" redes btn btn-secondary justify-content-center">Correo
+                        electrónico</button></a>
+
+                <p>¿Aún no tienes una cuenta? <u></u><a href="registrar.php">Registrate</a> </u></p>
+>>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
 
             </form>
         </div>

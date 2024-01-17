@@ -67,7 +67,11 @@ if ($_POST && isset($_GET["id"])) {
     if ($rol != "2") {
 
         $mensaje = "Registro No Valido";
+<<<<<<< HEAD
         header("Location:./dashboardAdmin.php?mensaje=" . $mensaje);
+=======
+        header("Location: http://localhost/app_remembers/php/admin/dashboardAdmin.php?mensaje=" . $mensaje);
+>>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
     } else {
 
         // Preparar la actualización de los datos
@@ -81,7 +85,11 @@ if ($_POST && isset($_GET["id"])) {
         $sentencia->execute();
 
         $mensaje = "Registro Actualizado";
+<<<<<<< HEAD
         header("Location:./dashboardAdmin.php?mensaje=" . $mensaje);
+=======
+        header("Location: http://localhost/app_remembers/php/admin/dashboardAdmin.php?mensaje=" . $mensaje);
+>>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
     }
 
 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php include("../../db.php"); ?>
 <?php include("../../templates/peticion.php"); ?>
 
@@ -27,6 +28,9 @@ if ($_POST && isset($_GET["txtID"])) {
     }
 }
 ?>
+=======
+<?php include("../../db.php"); ?><?php include("../../templates/peticion.php");?>
+>>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
 <!DOCTYPE html>
 <html lang="en">
 
@@ -49,6 +53,7 @@ if ($_POST && isset($_GET["txtID"])) {
             <img src="../../img/icono.png" alt="Icono de APP" class="icono-app">
             <h1>Restablecer tu contraseña</h1>
         </div>
+<<<<<<< HEAD
         <form action="" method="post" enctype="multipart/form-data">
             <div class="recuperar_contrasenna">
                 <?php if (isset($mensaje)) { ?>
@@ -59,6 +64,11 @@ if ($_POST && isset($_GET["txtID"])) {
                     </div>
                     <?php
                 } ?>
+=======
+        <div class="recuperar_contrasenna">
+
+            <form action="" method="post">
+>>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
 
                 <div class="col-12 my-3">
                     <label class="visually-hidden" for="inlineFormInputGroupUsername">Nueva Contraseña</label>
@@ -67,7 +77,11 @@ if ($_POST && isset($_GET["txtID"])) {
                                 class="icono-sesion">
                         </div>
                         <input type="password" class="form-control" id="inlineFormInputGroupUsername"
+<<<<<<< HEAD
                             placeholder="Nueva Contraseña" name="password" required>
+=======
+                            placeholder="Nueva Contraseña" required>
+>>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
                     </div>
                 </div>
                 <div class="col-12 my-3">
@@ -77,15 +91,27 @@ if ($_POST && isset($_GET["txtID"])) {
                                 class="icono-sesion">
                         </div>
                         <input type="password" class="form-control" id="inlineFormInputGroupUsername"
+<<<<<<< HEAD
                             placeholder="Confirmar Contraseña" name="confirmacion" required>
+=======
+                            placeholder="Confirmar Contraseña" required>
+>>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
                     </div>
                 </div>
                 <button class="btn btn-primary my-3" type="submit"><strong>Restablecer contraseña</strong></button>
 
+<<<<<<< HEAD
         </form>
     </div>
 
     </div>
+=======
+            </form>
+        </div>
+
+    </div>
+    <script src="../../JS/main.js"></script>
+>>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>

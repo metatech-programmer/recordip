@@ -21,7 +21,11 @@
             <h1>500</h1>
             <h2>Error en el servidor :</h2>
             <p>Un error interno en el servido ha ocurrido.</p>
+<<<<<<< HEAD
             <a href="/app_remembers/php/php_dashboard/cerrar.php"><button class="btn btn-primary w-auto" type="button">Regresar</button></a>
+=======
+            <a href="http://localhost/app_remembers/php/php_dashboard/cerrar.php"><button class="btn btn-primary w-auto" type="button">Regresar</button></a>
+>>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
