@@ -20,4 +20,4 @@ RUN mkdir app
 COPY ./ /var/www/html/app
 
 # Optionally, if you have a specific entry point script (e.g., index.php), you can set it here
-# CMD ["php", "/var/www/html/app/index.php"]
+CMD ["php", "/var/www/html/app/index.php"]
