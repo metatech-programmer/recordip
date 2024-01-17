@@ -192,7 +192,7 @@ c16 -17 42 -54 59 -81z" />
         }
 
         // Llamar a la función cada 5 segundos
-        setInterval(actualizarChat, 5000); // 5000 milisegundos = 5 segundos
+        setInterval(actualizarChat, 18000000); // 5000 milisegundos = 5 segundos
     </script>
 </body>
 
