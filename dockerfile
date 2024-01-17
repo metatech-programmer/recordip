@@ -14,4 +14,4 @@ WORKDIR /usr/src/recordip
 COPY . /usr/src/recordip
 
 # Specify the default command to run when the container starts
-CMD ["php", "./"]
+CMD ["php", "./index.php"]
