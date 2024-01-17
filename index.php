@@ -32,7 +32,7 @@
         <div class="descripcion fs-1 z-1">
             <h1 class="text-uppercase"><u>Recordip</u></h1>
             <p class="fs-3">
-                ¿Por qué preocuparlowercasete por recordar todas tus tareas pendientes cuando puedes dejar que nuestra
+                ¿Por qué preocuparse por recordar todas tus tareas pendientes cuando puedes dejar que nuestra
                 aplicación
                 te libere de esa carga? Descubre la manera más fácil y conveniente de mantener tu vida organizada y en
                 orden</p>
