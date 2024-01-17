@@ -3,11 +3,11 @@
 // Configurar el nivel de error para no mostrar advertencias
 error_reporting(E_ERROR | E_PARSE | E_CORE_ERROR | E_COMPILE_ERROR | E_RECOVERABLE_ERROR);
 
-$servidor = 'localhost';
+$servidor = 'ep-quiet-lake-52744492-pooler.us-east-1.postgres.vercel-storage.com';
 $puerto = '5432';
-$baseDeDatos = 'db_app_remembers';
-$usuario = 'php_admin';
-$contrasenna = '123456';
+$baseDeDatos = 'verceldb';
+$usuario = 'default';
+$contrasenna = 'uY2LiBPEH3eD';
 
 
 try {
