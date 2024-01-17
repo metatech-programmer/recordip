@@ -1,0 +1,1 @@
+<?php header("Location:./inicio_sesion_redes.php");?>
