@@ -8,7 +8,7 @@ RUN a2enmod rewrite
 RUN apt-get update && apt-get install -y libpq-dev
 
 # Install additional PHP extensions if needed
-# RUN docker-php-ext-install pdo pdo_pgsql
+RUN docker-php-ext-install pdo pdo_pgsql
 
 # Set the working directory inside the container
 WORKDIR /var/www/html
