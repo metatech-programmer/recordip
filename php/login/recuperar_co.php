@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php include("../../db.php"); ?>
 <?php include("../../templates/peticion.php"); ?>
 
@@ -66,9 +65,6 @@ if ($_POST) {
 
 ?>
 
-=======
-<?php include("../../db.php"); ?><?php include("../../templates/peticion.php");?>
->>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
 <!DOCTYPE html>
 <html lang="en">
 

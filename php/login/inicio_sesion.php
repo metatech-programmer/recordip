@@ -61,19 +61,11 @@
                     </div>
                 </div>
                 <u>
-<<<<<<< HEAD
                     <p><a href="./recuperar_co.php">¿Olvidaste tu contraseña?</a></p>
                 </u>
                 <button type="submit"  class="btn btn-primary" ><strong>Iniciar Sesión</strong></button>
 
                 <p>¿Aún no tienes una cuenta? <u></u><a href="./registrar.php">Registrate</a> </u></p>
-=======
-                    <p><a href="recuperar_co.php">¿Olvidaste tu contraseña?</a></p>
-                </u>
-                <button type="submit"  class="btn btn-primary" ><strong>Iniciar Sesión</strong></button>
-
-                <p>¿Aún no tienes una cuenta? <u></u><a href="registrar.php">Registrate</a> </u></p>
->>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
 
             </form>
         </div>

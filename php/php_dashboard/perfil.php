@@ -63,11 +63,7 @@ if ($_POST) {
 
 
     $mensaje = "Registro actualizado";
-<<<<<<< HEAD
     header("Location:./perfil.php?mensaje=" . $mensaje);
-=======
-    header("Location:http://localhost/app_remembers/php/php_dashboard/perfil.php?mensaje=" . $mensaje);
->>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
 
 }
 ?>
@@ -129,30 +125,18 @@ if ($_POST) {
                 <div class="d-flex justify-content-center fs-3 dash">
                     <div class="nav flex-column nav-pills me-3 dash-menu" id="v-pills-tab" role="tablist"
                         aria-orientation="vertical">
-<<<<<<< HEAD
                         <a href="./dashboard.php#?txtID=<?php echo $_SESSION['id']; ?>" class="nav-link"> <button
-=======
-                        <a href="dashboard.php#?txtID=<?php echo $_SESSION['id']; ?>" class="nav-link"> <button
->>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
                                 class="nav-link " id="v-pills-home-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
                                 aria-selected="false">Inicio</button></a>
                         <button class="nav-link active" id="v-pills-profile-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
                             aria-selected="true">Perfil</button>
-<<<<<<< HEAD
                         <a href="./ajustes.php#?txtID=<?php echo $_SESSION['id']; ?>" class="nav-link"> <button
                                 class="nav-link " id="v-pills-settings-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-settings" type="button" role="tab"
                                 aria-controls="v-pills-settings" aria-selected="false">Ajustes</button></a>
                         <a href="./cerrar.php" class="nav-link"> <button
-=======
-                        <a href="ajustes.php#?txtID=<?php echo $_SESSION['id']; ?>" class="nav-link"> <button
-                                class="nav-link " id="v-pills-settings-tab" data-bs-toggle="pill"
-                                data-bs-target="#v-pills-settings" type="button" role="tab"
-                                aria-controls="v-pills-settings" aria-selected="false">Ajustes</button></a>
-                        <a href="<?php echo $url_base; ?>php/php_dashboard/cerrar.php" class="nav-link"> <button
->>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
                                 class="nav-link bg-danger text-white opacity-50 btn_exit" type="button" role="button"
                                 id="close">Cerrar
                                 sesion</button></a>

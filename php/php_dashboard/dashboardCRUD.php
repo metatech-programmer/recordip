@@ -20,11 +20,7 @@ if ($_POST && isset($_GET["txtIDUsu"])) {
     $sentencia->bindParam(":id", $txtIDUsu);
     $sentencia->execute();
     $mensaje = "Registro agregado";
-<<<<<<< HEAD
     header("Location:./dashboard.php?mensaje=" . $mensaje);
-=======
-    header("Location:http://localhost/app_remembers/php/php_dashboard/dashboard.php?mensaje=" . $mensaje);
->>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
 }
 if ($_POST && isset($_GET["ID"])) {
 
@@ -43,11 +39,7 @@ if ($_POST && isset($_GET["ID"])) {
     $sentencia->bindParam(":id", $id);
     $sentencia->execute();
     $mensaje = "Registro Actualizado";
-<<<<<<< HEAD
     header("Location:./dashboard.php?mensaje=" . $mensaje);
-=======
-    header("Location:http://localhost/app_remembers/php/php_dashboard/dashboard.php?mensaje=" . $mensaje);
->>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
 }
 
 
@@ -57,11 +49,7 @@ if (isset($_GET["txtID"])) {
     $sentencia->bindParam(":id", $txtID);
     $sentencia->execute();
     $mensaje = "Registro Eliminado";
-<<<<<<< HEAD
     header("Location:./dashboard.php?mensaje=" . $mensaje);
-=======
-    header("Location:http://localhost/app_remembers/php/php_dashboard/dashboard.php?mensaje=" . $mensaje);
->>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
 }
 
 

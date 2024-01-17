@@ -21,11 +21,7 @@
             <h1>NO MAME</h1>
             <h2>Error de errores:</h2>
             <p>Ensserio no puede ni acceder bien a los errores? ._.</p>
-<<<<<<< HEAD
             <a href="./app_remembers/php/php_dashboard/cerrar.php"><button class="btn btn-primary w-auto"
-=======
-            <a href="http://localhost/app_remembers/php/php_dashboard/cerrar.php"><button class="btn btn-primary w-auto"
->>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
                     type="button">Regresar</button></a>
         </div>
     </div>

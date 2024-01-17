@@ -62,29 +62,17 @@
                             data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
                             aria-selected="true">Inicio</button>
 
-<<<<<<< HEAD
                         <a href="./perfil.php#?txtID=<?php echo $_SESSION['id']; ?>" class="nav-link"> <button
-=======
-                        <a href="perfil.php#?txtID=<?php echo $_SESSION['id']; ?>" class="nav-link"> <button
->>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
                                 class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-profile" type="button" role="tab"
                                 aria-controls="v-pills-profile" aria-selected="false">Perfil</button></a>
 
-<<<<<<< HEAD
                         <a href="./ajustes.php#?txtID=<?php echo $_SESSION['id']; ?>" class="nav-link"> <button
-=======
-                        <a href="ajustes.php#?txtID=<?php echo $_SESSION['id']; ?>" class="nav-link"> <button
->>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
                                 class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-settings" type="button" role="tab"
                                 aria-controls="v-pills-settings" aria-selected="false">Ajustes</button></a>
 
-<<<<<<< HEAD
                         <a href="./cerrar.php" class="nav-link"> <button
-=======
-                        <a href="<?php echo $url_base; ?>php/php_dashboard/cerrar.php" class="nav-link"> <button
->>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
                                 class="nav-link bg-danger text-white opacity-50 btn_exit" type="button" role="button"
                                 id="close">Cerrar
                                 sesion</button></a>
@@ -146,11 +134,7 @@
                                                 <td style="border-radius: 15px; letter-spacing: 2px;"
                                                     class=" bg-opacity-10  m-auto  align-items-center  fw-bolder h_reminder text-center">
                                                     <a class="btn btn-info m-2 modal_on edit" id="modalEdit"
-<<<<<<< HEAD
                                                         href="./dashboard.php?ID=<?php echo $registro['id_recordatorio']; ?>"
-=======
-                                                        href="http://localhost/app_remembers/php/php_dashboard/dashboard.php?ID=<?php echo $registro['id_recordatorio']; ?>"
->>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
                                                         role="button">Editar</a>
                                                     <a class="btn btn-danger m-2 clear"
                                                         href="javascript:borrar(<?php echo $registro['id_recordatorio']; ?>);"
@@ -173,11 +157,7 @@
 
 
                 <a id="modal"
-<<<<<<< HEAD
                     href="./dashboard.php?txtIDUsu=<?php echo $_SESSION["id"]; ?>"
-=======
-                    href="http://localhost/app_remembers/php/php_dashboard/dashboard.php?txtIDUsu=<?php echo $_SESSION["id"]; ?>"
->>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
                     type="button" class="btn btn-primary p-5 agregar-btn modal_on"
                     style="border: 3px solid #ffffffa4;"><i class="bi bi-plus-square-dotted fs-2 n_reminder"> <br> Nuevo
                         Recordatorio</i></a>

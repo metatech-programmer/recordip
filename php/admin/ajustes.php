@@ -53,20 +53,12 @@ $txtID = isset($_GET["txtID"]) ? intval($_GET["txtID"]) : 0; ?>
                     <div class="nav flex-column nav-pills me-3 dash-menu" id="v-pills-tab" role="tablist"
                         aria-orientation="vertical">
 
-<<<<<<< HEAD
                         <a href="./dashboardAdmin.php#?txtID=<?php echo $_SESSION['id']; ?>" class="nav-link"><button
-=======
-                        <a href="dashboardAdmin.php#?txtID=<?php echo $_SESSION['id']; ?>" class="nav-link"><button
->>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
                                 class="nav-link " id="v-pills-home-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
                                 aria-selected="true">Inicio</button></a>
 
-<<<<<<< HEAD
                         <a href="./perfil.php#?txtID=<?php echo $_SESSION['id']; ?>" class="nav-link"> <button
-=======
-                        <a href="perfil.php#?txtID=<?php echo $_SESSION['id']; ?>" class="nav-link"> <button
->>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
                                 class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-profile" type="button" role="tab"
                                 aria-controls="v-pills-profile" aria-selected="false">Perfil</button></a>
@@ -75,11 +67,7 @@ $txtID = isset($_GET["txtID"]) ? intval($_GET["txtID"]) : 0; ?>
                             data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings"
                             aria-selected="false">Ajustes</button>
 
-<<<<<<< HEAD
                         <a href="./cerrar.php" class="nav-link"> <button
-=======
-                        <a href="<?php echo $url_base; ?>php/admin/cerrar.php" class="nav-link"> <button
->>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
                                 class="nav-link bg-danger text-white opacity-50 btn_exit" type="button" role="button"
                                 id="close">Cerrar
                                 sesion</button></a>
@@ -97,11 +85,7 @@ $txtID = isset($_GET["txtID"]) ? intval($_GET["txtID"]) : 0; ?>
                 <div class=" bg-black bg-opacity-10 m-1 w-50 p-4 overflow-auto" style="border-radius: 15px;">
                     <form>
                         <fieldset>
-<<<<<<< HEAD
                             <legend class="lbl_preferencia">Preferencias de idioma</legend>
-=======
-                            <legend>Preferencias de idioma</legend>
->>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
                             <label for="language-selector">Idioma:</label>
                             <select class="form-select w-50 m-auto mt-2" id="language-selector"
                                 name="language-selector">
@@ -117,11 +101,7 @@ $txtID = isset($_GET["txtID"]) ? intval($_GET["txtID"]) : 0; ?>
                                 <i id="icon-sun" class="bi bi-sun" style="display:none"></i>
                             </button>
                         </fieldset>
-<<<<<<< HEAD
                         <button class="bg-primary border-primary btn-primary text-white rounded-2 w-50 m-auto btn_r"
-=======
-                        <button class="bg-primary border-primary btn-primary text-white rounded-2 w-50 m-auto"
->>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
                             type="submit">Guardar cambios</button>
                     </form>
                 </div>

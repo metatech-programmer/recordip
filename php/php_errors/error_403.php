@@ -21,11 +21,7 @@
             <h1>403</h1>
             <h2>Forbidden:</h2>
             <p>No posees el permiso al acceso de estos recursos.</p>
-<<<<<<< HEAD
             <a href="/app_remembers/php/php_dashboard/cerrar.php"><button class="btn btn-primary w-auto"
-=======
-            <a href="http://localhost/app_remembers/php/php_dashboard/cerrar.php"><button class="btn btn-primary w-auto"
->>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
                     type="button">Regresar</button></a>
         </div>
     </div>

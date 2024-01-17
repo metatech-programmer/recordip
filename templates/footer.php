@@ -8,11 +8,7 @@
   const iconMoon = document.querySelector("#icon-moon");
   const iconSun = document.querySelector("#icon-sun");
   const lblIdioma = document.querySelector("label");
-<<<<<<< HEAD
   const lblPreferencia = document.querySelector("legend.lbl_preferencia");
-=======
-  const lblPreferencia = document.querySelector("legend");
->>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
   const lblModo = document.querySelector("legend.lbl_modo");
   const body = document.querySelector(".body");
   let isDarkMode = false;
@@ -58,16 +54,7 @@
 
 
 
-<<<<<<< HEAD
  
-=======
-  // Agrega un evento 'submit' al formulario y evita que se envíe
-  form.addEventListener("submit", function (event) {
-    event.preventDefault();
-    guardarPreferencias();
-  });
-
->>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
   function idiom() {
 
     const language = document.querySelector("#language-selector").value;
@@ -198,7 +185,6 @@
 
   }
 
-<<<<<<< HEAD
    // Agrega un evento 'submit' al formulario y evita que se envíe
    form.addEventListener("submit", function (event) {
     event.preventDefault();
@@ -206,8 +192,6 @@
   });
 
 
-=======
->>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
   // Función para obtener los nuevos mensajes del servidor
 
 function obtenerNuevosMensajes() {
@@ -430,39 +414,21 @@ setInterval(actualizarChat, 5000); // 5000 milisegundos = 5 segundos
       confirmButtonText: 'Si, borrar',
     }).then((result) => {
       if (result.isConfirmed) {
-<<<<<<< HEAD
         window.location = "./dashboard.php?txtID=" + id;
-=======
-        window.location = "http://localhost/app_remembers/php/php_dashboard/dashboard.php?txtID=" + id;
->>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
       }
     })
 
 
   }
-<<<<<<< HEAD
-
-=======
->>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
-  function btnborrar(id) {
     Swal.fire({
-      title: '¿Desea borrar el registro?',
-      showCancelButton: true,
       confirmButtonText: 'Si, borrar',
     }).then((result) => {
       if (result.isConfirmed) {
-<<<<<<< HEAD
         window.location = "./dashboardAdmin.php?txtID=" + id;
       }
     })
-  }
   
-=======
-        window.location = "http://localhost/app_remembers/php/admin/dashboardAdmin.php?txtID=" + id;
-      }
-    })
-  }
->>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
+  
   function btnEditar() {
     if (document.querySelector(".form_rol").value == "2") {
       Swal.fire({

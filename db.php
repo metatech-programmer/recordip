@@ -5,11 +5,7 @@ error_reporting(E_ERROR | E_PARSE | E_CORE_ERROR | E_COMPILE_ERROR | E_RECOVERAB
 
 $servidor = 'localhost';
 $puerto = '5432';
-<<<<<<< HEAD
 $baseDeDatos = 'db_app_remembers';
-=======
-$baseDeDatos = 'recordip';
->>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
 $usuario = 'php_admin';
 $contrasenna = '123456';
 

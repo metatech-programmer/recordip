@@ -80,13 +80,8 @@ if ($_POST) {
                             aria-label="telegram_id" required>
                     </div>
                     <!-- Modal trigger button -->
-<<<<<<< HEAD
                     <button type="button" class=" bg-transparent border-0 m-0 p-0 col-5" style="height: fit-content;"
                         data-bs-toggle="modal" data-bs-target="#miModal">
-=======
-                    <button type="button" class=" bg-transparent border-0 m-0 p-0 col-5 " style="height: fit-content;"
-                        data-bs-toggle="modal" data-bs-target="#mimodal">
->>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
                         ¿Quieres saber donde esta?
                     </button>
 
@@ -105,11 +100,8 @@ if ($_POST) {
                                             <li data-bs-target="#miCarrusel" data-bs-slide-to="0" class="active"></li>
                                             <li data-bs-target="#miCarrusel" data-bs-slide-to="1"></li>
                                             <li data-bs-target="#miCarrusel" data-bs-slide-to="2"></li>
-<<<<<<< HEAD
                                             <li data-bs-target="#miCarrusel" data-bs-slide-to="3"></li>
                                             <li data-bs-target="#miCarrusel" data-bs-slide-to="4"></li>
-=======
->>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
                                             <!-- Agrega más indicadores si hay más elementos en el carrusel -->
                                         </ol>
 
@@ -123,7 +115,6 @@ if ($_POST) {
                                                     <p>Abra telegram y dirigete al apartado de busqueda</p>
                                                 </div>
                                             </div>
-<<<<<<< HEAD
                                             <div class="carousel-item ">
                                                 <p>Antes de seguir debes hacer los siguientes dos pasos para que te
                                                     lleguen los recordatorios:</p>
@@ -149,25 +140,13 @@ if ($_POST) {
                                                 <div class="carousel-caption">
                                                     <h3>Paso No.4 :</h3>
                                                     <p>Ahora ve atras y busca al siguiente usuario: @Get My ID</p>
-=======
-                                            <div class="carousel-item">
-                                                <img src="../../img/segundo_paso.jpg" class="img-fluid w-100"
-                                                    style="max-height: 500px;" alt="Segundo paso">
-                                                <div class="carousel-caption">
-                                                    <h3>Paso No.2 :</h3>
-                                                    <p>Busca al siguiente usuario: @Get My ID</p>
->>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
                                                 </div>
                                             </div>
                                             <div class="carousel-item">
                                                 <img src="../../img/ultimo_paso.jpg" class="img-fluid w-100 "
                                                     style="max-height: 500px;" alt="Ultimo paso">
                                                 <div class="carousel-caption">
-<<<<<<< HEAD
                                                     <h3>Paso No.5 :</h3>
-=======
-                                                    <h3>Paso No.3 :</h3>
->>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
                                                     <p>Ingresa a la primera opcion y dale click en iniciar</p>
                                                 </div>
                                             </div>
@@ -195,11 +174,7 @@ if ($_POST) {
                 <button class="btn btn-primary w-75 auto m-auto  mt-3 mb-2" type="submit" style="margin-top: 40px;">
                     <strong>Siguiente</strong></button>
 
-<<<<<<< HEAD
                 <p>¿Ya tienes una cuenta? <u></u><a href="./inicio_sesion.php">Inicia Sesión</a> </u></p>
-=======
-                <p>¿Ya tienes una cuenta? <u></u><a href="inicio_sesion.php">Inicia Sesión</a> </u></p>
->>>>>>> e58a4b94673fa2635cf300002517e4372dff8182
 
             </form>
         </div>
