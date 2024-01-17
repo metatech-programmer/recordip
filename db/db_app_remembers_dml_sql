@@ -1,0 +1,13 @@
+INSERT INTO roles (nombre_rol) 
+VALUES ('user');
+INSERT INTO roles (nombre_rol) 
+VALUES ('admin');
+
+INSERT INTO usuarios (id_rol_usuario, nombres_usuario, apellidos_usuario, apodo_usuario, telegram_id_usuario) 
+VALUES (1, 'Admin', 'user', 'Administrador', '11101001011');
+
+INSERT INTO accesos (id_usuario, correo_acceso, password_acceso) 
+VALUES (1, 'admin@recordip.com', '123456');
+
+INSERT INTO imagenes (id_usuario, nombre_imagen) 
+VALUES (1, '1681094881_default.png');
