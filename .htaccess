@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 ErrorDocument 403 /app_remembers/php/php_errors/error_403.php
 ErrorDocument 404 /app_remembers/php/php_errors/error_404.php
 ErrorDocument 500 /app_remembers/php/php_errors/error_500.php
+=======
+ErrorDocument 403 /app_remembers/php/php_errors/error_403.php
+ErrorDocument 404 /app_remembers/php/php_errors/error_404.php
+ErrorDocument 500 /app_remembers/php/php_errors/error_500.php
+>>>>>>> 3af5b5a7b7323ad005b11fdcb45832df85278acc
