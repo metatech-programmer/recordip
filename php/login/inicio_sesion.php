@@ -41,7 +41,7 @@
                     <div class="input-group">
                         <div class="input-group-text"> <img src="../../img/correo.png" alt="Icono de correo" class="icono-sesion">
                         </div>
-                        <input type="email" class="form-control correo_acceso" name="correo_acceso" id="correo_acceso" placeholder="Correo electronico" list="correo_acceso">
+                        <input type="email" class="form-control correo_acceso" name="correo_acceso" id="correo_acceso" placeholder="Correo electronico (prueba> (admin o user)@recordip.com)" list="correo_acceso">
                         <datalist id="correo_acceso">
                             <option value="admin@recordip.com"></option>
                             <option value="user@recordip.com"></option>
@@ -55,7 +55,7 @@
                         <div class="input-group-text"> <img src="../../img/key.png" alt="Icono de correo" class="icono-sesion">
                         </div>
 
-                        <input type="password" class="form-control password_acceso" name="password_acceso" id="password_acceso" placeholder="Digite su contraseña" list="password_acceso">
+                        <input type="password" class="form-control password_acceso" name="password_acceso" id="password_acceso" placeholder="Digite su contraseña (prueba> 123456)" list="password_acceso">
                         <datalist id="password_acceso">
                             <option value="123456"></option>
                         </datalist>
