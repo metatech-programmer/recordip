@@ -19,10 +19,12 @@
 
 <body>
     <div class="body">
-        <div class="header" style="margin-bottom: 50px;">
-            <img src="../../img/icono.png" alt="Icono de APP" class="icono-app">
-            <h1>Bienvenido a Recordip</h1>
-        </div>
+        <a href="../index.php" style="text-decoration: underline; text-underline-offset: 7px; ">
+            <div class="header" style="margin-bottom: 50px;">
+                <img src="../../img/icono.png" alt="Icono de APP" class="icono-app">
+                <h1>Bienvenido a Recordip</h1>
+            </div>
+        </a>
         <div class="inicio-sesion">
             <form action="" method="get">
                 <p style="width: 95%; ">Inicie sesión con uno de los siguientes:</p>

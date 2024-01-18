@@ -30,8 +30,8 @@ include("./db.php"); ?>
         </div>
     </nav>
     <div class="body" style="height: fit-content;">
-        <div class="descripcion fs-1 z-1">
-            <h1 class="text-uppercase"><u>Recordip</u></h1>
+        <div class="descripcion fs-1 z-1 overflow-scroll" style="text-wrap: pretty">
+            <h1 class="text-uppercase " style="color: #69a2fa" >Recordip</h1>
             <p class="fs-3">
                 ¿Por qué preocuparse por recordar todas tus tareas pendientes cuando puedes dejar que nuestra
                 aplicación
